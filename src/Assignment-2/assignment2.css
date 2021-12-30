@@ -28,9 +28,23 @@ height: 100%;
     width: 1325px;
     height: 45px;
     border-style: ridge;
-    text-align: center;
 }
-
+.link1{
+    display: inline-block;
+    margin-left: 450px;
+}
+.link2{
+    display: inline-block;
+    margin-left: 0px;
+}
+.link3{
+    display: inline-block;
+    margin-left: 0px;
+}
+.link4{
+    display: inline-block;
+    margin-left: 0px;
+}
 .left-sidebar{
     position: absolute;
     background-color: aqua;
