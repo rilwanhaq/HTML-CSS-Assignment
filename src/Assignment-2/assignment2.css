@@ -5,3 +5,103 @@
 width: 100%;
 height: 100%;
 }
+.header{
+    background-color: lightblue;
+    height: 140px;
+    border-style: ridge;
+}
+.form{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.navibar
+{
+    position: absolute;
+    background-color: chocolate;
+    top: 165px;
+    width: 1325px;
+    height: 45px;
+    border-style: ridge;
+    text-align: center;
+}
+
+.left-sidebar{
+    position: absolute;
+    background-color: aqua;
+    left: 30px;
+    top: 220px;
+    width: 150px;
+    height: 300px;
+    border-style: ridge;
+}
+
+.right-sidebar{
+    position: absolute;
+    background-color: aqua;
+    right: 30px;
+    top: 220px;
+    width: 150px;
+    height: 300px;
+    border-style: ridge;
+}
+footer{
+    position: absolute;
+    top: 550px;
+    height: 102px;
+    width: 1325px;
+    right: 10px;
+    text-align: center;
+    border-style: ridge;
+}
+#main-content-section{
+    position: absolute;
+    border-style: ridge;
+    width: 950px;
+    height: 300px;
+    top: 220px;
+    left: 200px
+}
+.first-pic{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+.second-pic{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+}
+.third-pic{
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
+.fourth-pic{
+    position: absolute;
+    left: 80px;
+    top: 160px;
+}
+.fifth-pic{
+    position: absolute;
+    left: 360px;
+    top: 160px;
+}
+.sixth-pic{
+    position: absolute;
+    left: 650px;
+    top: 160px;
+}
+.images{
+    border: 5px;
+    padding: 10px;
+}
+.post-img{
+    height: 120px;
+    width: 200px;
+}
