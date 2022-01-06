@@ -5,3 +5,127 @@
 width: 100%;
 height: 100%;
 }
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+header
+{
+    background: #4DA1A9;
+    color: white;
+    height: 100px;
+    padding: 0 25px;
+}
+header h1
+{
+    float: left;
+    text-indent: -9999px;
+    background: url("images/boruto.png");
+    background-size: 150px;
+    height: 75px;
+    width: 150px;
+    margin-top: 18px;
+}
+/*#logo
+{
+    height: 55px;
+    float: left;
+    width: 150px;
+    margin-top: 18px;
+}
+*/
+header nav
+{
+    float: right;
+}
+nav li
+{
+    display: inline-block;
+    padding: 17px 10px;
+}
+nav li:hover
+{
+    background: #3F8DA7;
+    color: white;
+    cursor: pointer;
+}
+#hero
+{
+    background: url('images/konohabackground.jpeg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+#hero img
+{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    border: 5px solid #3F8DA7;
+}
+#hero h2
+{
+    font-size: 30px;
+}
+.btn
+{
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background: #3F8DA7;
+    color: white;
+    padding: 5px 10px;
+}
+.three-col
+{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+.three-col img
+{
+    border-radius: 50%;
+    border: 3px solid #3F8DA7;
+    height: 200px;
+    width: 200px;
+    margin: 25px 0;
+}
+.three-col p
+{
+    margin-bottom: 40px;
+}
+footer
+{
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+footer ul
+{
+    margin: 40px 0;
+}
+footer li
+{
+    display: inline-block;
+    margin: 0 25px;
+}
+.link
+{
+    color: white
+}
+.link:hover
+{
+    color: #92E0E5;
+}
