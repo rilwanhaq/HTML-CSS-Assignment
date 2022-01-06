@@ -92,6 +92,10 @@ nav li:hover
     vertical-align: top;
     margin: 0 10px;
 }
+.three-col h3
+{
+    margin-left: 50px;
+}
 .three-col img
 {
     border-radius: 50%;
@@ -99,9 +103,11 @@ nav li:hover
     height: 200px;
     width: 200px;
     margin: 25px 0;
+    margin-left: 60px;
 }
 .three-col p
 {
+    margin-left: 85px;
     margin-bottom: 40px;
 }
 footer
@@ -128,4 +134,8 @@ footer li
 .link:hover
 {
     color: #92E0E5;
+}
+.three-col a
+{
+    margin-left: 50px;
 }
