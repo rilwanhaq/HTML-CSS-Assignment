@@ -18,7 +18,7 @@
 	  // Variables used by our tests. They're populated in the `before()` and `beforeEach()` functions.
 	  var frame; // The Quixote test frame.
 	  var container, frameDom; // The figure element inside the media object. (The icon.)
-	  var header_ele, form_ele, input; // The content element inside the media object. (The paragraph.)
+	  var header_ele, form_ele, input; //  The content element inside the media object. (The paragraph.)
   
 	  // Use Mocha's standard `before` function to set up our Quixote test frame before the tests run.
 	  before(function (done) {

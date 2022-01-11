@@ -1,45 +1,74 @@
 /* Our CSS file. */
-.container,.content
+body
 {
-width: 100%;
-height: 100%;
+    background-color: lightgrey;
+}
+
+#container
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
 }
 .card
 {
-    margin: 30px;
-    margin-top: 80px;
-    border-style: solid;
-    border-radius: 20px;
+    text-align: center;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background-color: white;
 }
-.images
+.right
 {
-    background:lightgreen;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    margin: 20px;
+    margin-left: 80px;
 }
-.content
-{
-    margin: 30px;
-    padding: 50px;
-}
-h1
-{
-    font-size: 60px;
-}
-.btn
+button
 {
     background: lightgreen;
-    border-radius: 30px;
-    padding: 20px 30px;
-    color: #ffffff;
-    text-decoration: none;
-    font-style: bold;
-    border:none;
-}
-.btn:hover
-{
-    background: #3F8DA7;
     color: white;
-    padding: 20px 30px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.pointy
+{
+    position: absolute;
+    left: 30px;
+    width: 425px;
+}
+.leafy
+{
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+.image-leafy
+{
+    background-color: lightgreen;
+    width: 1350px;
+    height: 400px;
+    padding: 20px;
+}
+.image-pointy
+{
+    background-color: lightgreen;
+    width: 1350px;
+    height: 400px;
+    padding: 20px;
+}
+#head
+{
+    margin-left: -580px;
+}
+#head1
+{
+    margin-left: -640px;
+}
+#btn
+{
+    margin-left:-620px;
 }
